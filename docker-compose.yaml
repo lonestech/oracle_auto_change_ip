@@ -1,0 +1,7 @@
+version: "3"
+services:
+  changeip:
+    image:  changeip
+    restart: always
+    volumes:
+      - ./config:/app/config

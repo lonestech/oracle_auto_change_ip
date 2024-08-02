@@ -1,0 +1,20 @@
+[
+    {
+        "name": "sydney",
+        "config": {
+            "user": "ocid1.user.oc1..aaaaaaaainxx",
+            "fingerprint" : "b4:1e:10:",
+            "tenancy" : "ocid1.tenancy.oc1..aaaaaaaagwephse5y7cg3x",
+            "region" : "ap-sydney-1",
+            "key_file" : "./config/oci.pem"
+        },
+        "cloudflare":{
+            "cloudflare_email":"xxxx@qq.com",
+            "cloudflare_api_token": "xxxx",
+            "zonenames": "xxx.xxs"
+        },
+        "mapping": {
+            "ocid1.vnic.oc1.ap-sydney-1.abzxsljrix": "xxx.xx"
+        }
+    }
+]
