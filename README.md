@@ -55,5 +55,6 @@ cloudflare 的配置信息，用于更改 cloudflare 的 DNS 解析记录
 
 3. 运行
 ```
+docker buildx build -t changeip .
 docker compose up -d
 ```
